@@ -10,7 +10,7 @@
   <remote  name="vendor"
            fetch="https://github.com/TheBootloops" />
   
-  <project path="device/xiaomi/tulip" name="descendant_device_xiaomi_tulip" remote="device" revision="eleven" />
+  <project path="device/xiaomi/tulip" name="ssos_device_xiaomi_tulip" remote="device" revision="eleven" />
   <project path="device/xiaomi/sdm660-common" name="device_xiaomi_tulip-common" remote="device" revision="eleven" />
   <project path="kernel/xiaomi/tulip" name="kernel-xiaomi-sdm660" remote="kernel" revision="eas" />
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="vendor" revision="eleven" />
