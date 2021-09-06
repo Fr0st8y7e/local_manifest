@@ -8,10 +8,11 @@
            fetch="https://github.com/LineageOS" />
   
   <remote  name="vendor"
-           fetch="https://github.com/arturo51236" />
+           fetch="https://github.com/pawar-mahesh" />
   
-  <project path="device/xiaomi/tulip" name="pixys_device_xiaomi_tulip" remote="device" revision="r" />
+  <project path="device/xiaomi/tulip" name="pixys_device_xiaomi_tulip-1" remote="device" revision="eleven" />
+  <project path="device/xiaomi/sdm660-common" name="pixys_device_xiaomi_sdm660-common" remote="device" revision="eleven" />
   <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="kernel" revision="lineage-18.1" />
-  <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="vendor" revision="r" />
+  <project path="vendor/xiaomi" name="vendor_xiaomi_tulip" remote="vendor" revision="eleven" />
   
 </manifest>
