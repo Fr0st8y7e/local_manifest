@@ -5,13 +5,13 @@
            fetch="https://github.com/IceBreaker2451" />
   
   <remote  name="kernel"
-           fetch="https://github.com/Sixzz9" />
+           fetch="https://github.com/LineageOS" />
   
   <remote  name="vendor"
            fetch="https://github.com/arturo51236" />
   
-  <project path="device/xiaomi/tulip" name="ssos_device_xiaomi_tulip" remote="device" revision="r" />
-  <project path="kernel/xiaomi/sdm660" name="kernel-xiaomi-sdm660" remote="kernel" revision="eas" />
+  <project path="device/xiaomi/tulip" name="pixys_device_xiaomi_tulip" remote="device" revision="r" />
+  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="kernel" revision="lineage-18.1" />
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="vendor" revision="r" />
   
 </manifest>
