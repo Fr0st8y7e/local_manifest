@@ -10,8 +10,8 @@
   <remote  name="vendor"
            fetch="https://github.com/pawar-mahesh" />
   
-  <project path="device/xiaomi/tulip" name="pixys_device_xiaomi_tulip-1" remote="device" revision="eleven" />
-  <project path="device/xiaomi/sdm660-common" name="pixys_device_xiaomi_sdm660-common" remote="device" revision="eleven" />
+  <project path="device/xiaomi/tulip" name="potato_device_xiaomi_tulip" remote="device" revision="dumaloo-release" />
+  <project path="device/xiaomi/sdm660-common" name="potato_device_xiaomi_sdm660-common" remote="device" revision="dumaloo-release" />
   <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="kernel" revision="lineage-18.1" />
   <project path="vendor/xiaomi" name="vendor_xiaomi_tulip" remote="vendor" revision="eleven" />
   
