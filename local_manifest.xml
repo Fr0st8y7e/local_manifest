@@ -14,5 +14,6 @@
   <project path="device/xiaomi/sdm660-common" name="potato_device_xiaomi_sdm660-common" remote="device" revision="dumaloo-release" />
   <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="kernel" revision="lineage-18.1" />
   <project path="vendor/xiaomi" name="vendor_xiaomi_tulip" remote="vendor" revision="eleven" />
+  <remove-project name="device/generic/opengl-transport" />
   
 </manifest>
