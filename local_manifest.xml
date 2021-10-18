@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote  name="tulip-4.19"
-           fetch="https://github.com/IceBreaker2451" />
+  <remote  name="arrow-tulip"
+           fetch="https://github.com/Arrow-Tulip" />
   
-  <remote  name="kernel-4.19"
-           fetch="https://github.com/Atom-X-Devs" />
+  <remote  name="kernel"
+           fetch="https://github.com/okta-10" />
   
-  <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip_4.19" remote="tulip-4.19" revision="arrow-12.0" />
-  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660_common_4.19" remote="tulip-4.19" revision="arrow-12.0" />
-  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="kernel-4.19" revision="qti-haptics" />
-  <project path="vendor/xiaomi/tulip" name="android_vendor_xiaomi_tulip_4.19" remote="tulip-4.19" revision="arrow-12.0" />
-  <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660_common_4.19" remote="tulip-4.19" revision="arrow-12.0" />
+  <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="arrow-tulip" revision="staging/arrow-12.0" />
+  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="tulip-4.19" revision="staging/arrow-12.0" />
+  <project path="kernel/xiaomi/sdm660" name="mystic_kernel_sdm660-4.4" remote="kernel" revision="Mystic-4.4" />
+  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="arrow-tulip" revision="eleven" />
   
 </manifest>
