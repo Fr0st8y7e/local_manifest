@@ -16,8 +16,8 @@
   <remote  name="hals"
            fetch="https://github.com/ArrowOS" />
   
-  <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="icebreaker" revision="twelve" />
-  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="icebreaker" revision="twelve" />
+  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="icebreaker" revision="twelve" />
+  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_tulip-common" remote="icebreaker" revision="twelve" />
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="garuda" revision="kernel-eas" />
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="thebootloops" revision="twelve" />
   <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_tulip-common" remote="thebootloops" revision="twelve" />
