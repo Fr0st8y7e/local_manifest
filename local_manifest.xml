@@ -2,7 +2,7 @@
 <manifest>
   
   <remote  name="tulip"
-           fetch="https://github.com/Arrow-Tulip" />
+           fetch="https://github.com/IceBreaker2451" />
   
   <remote  name="kernel"
            fetch="https://github.com/Atom-X-Devs" />
