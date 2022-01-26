@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote  name="arrow-tulip"
+  <remote  name="tulip"
            fetch="https://github.com/Arrow-Tulip" />
   
   <remote  name="kernel"
-           fetch="https://github.com/okta-10" />
+           fetch="https://github.com/Atom-X-Devs" />
   
-  <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="arrow-tulip" revision="staging/arrow-12.0" />
-  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="arrow-tulip" revision="staging/arrow-12.0" />
-  <project path="kernel/xiaomi/sdm660" name="mystic_kernel_sdm660-4.4" remote="kernel" revision="Mystic-4.4" />
-  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="arrow-tulip" revision="eleven" />
+  <remote  name="hals"
+           fetch="https://github.com/EdwinMoq" />
+  
+  <remove-project name="platform/hardware/google/pixel" />
+  <remove-project name="android_hardware_qcom_audio" />
+  <remove-project name="android_hardware_qcom_display" />
+  <remove-project name="android_hardware_qcom_media" />
+  
+  <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="tulip" revision="arrow-12.0" />
+  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="tulip" revision="twelve" />
+  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_scarlet" remote="kernel" revision="release-v10" />
+  <project path="vendor/xiaomi/tulip" name="android_vendor_xiaomi_tulip" remote="tulip" revision="arrow-12.0" />
+  <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="tulip" revision="twelve" />
+  
+  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="tulip" revision="master" />
+  
+  <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" remote="hals" revision="sdm660-4.19" />
+  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" remote="hals" revision="sdm660-4.19" />
+  <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" remote="hals" revision="sdm660-4.19" />
   
 </manifest>
