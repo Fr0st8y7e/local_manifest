@@ -19,7 +19,7 @@
   <remove-project name="android_hardware_qcom_media" />
   
   <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="tulip-android" revision="wip-ice" />
-  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_scarlet" remote="kernel" revision="release-v10" />
+  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_scarlet" remote="kernel" revision="release-v10-QTI" />
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="tulip-android" revision="wip" />
   
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="tulip" revision="master" />
