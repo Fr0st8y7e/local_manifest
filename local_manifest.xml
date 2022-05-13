@@ -7,10 +7,6 @@
   <remote  name="Atom-X"
            fetch="https://github.com/Atom-X-Devs" />
   
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  
   <project path="device/xiaomi/tulip" name="device_xiaomi_twolip" remote="icebreaker" revision="lineage-19.1" />
   <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_scarlet" remote="Atom-X" revision="default-QTI" />
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_twolip" remote="icebreaker" revision="lineage-19.1" />
