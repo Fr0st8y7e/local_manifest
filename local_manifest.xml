@@ -4,22 +4,19 @@
   <remote  name="icebreaker"
            fetch="https://github.com/IceBreaker2451" />
   
-  <remote  name="evox_devices"
-           fetch="https://github.com/Evolution-X-Devices" />
+  <remote  name="Atom-X"
+           fetch="https://github.com/Atom-X-Devs" />
   
-  <remote  name="hals"
-           fetch="https://github.com/ArrowOS" />
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />
   
-  <remove-project name="hardware_qcom-caf_msm8998_audio" />
-  <remove-project name="hardware_qcom-caf_msm8998_display" />
-  <remove-project name="hardware_qcom-caf_msm8998_media" />
+  <project path="device/xiaomi/tulip" name="device_xiaomi_twolip" remote="icebreaker" revision="lineage-19.1" />
+  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_scarlet" remote="Atom-X" revision="default-QTI" />
+  <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_twolip" remote="icebreaker" revision="lineage-19.1" />
   
-  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="icebreaker" revision="twelve" />
-  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="evox_devices" revision="eas" />
-  <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="icebreaker" revision="twelve" />
-  
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="hals" revision="arrow-12.0-caf-msm8998" clone-depth="1" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="hals" revision="arrow-12.0-caf-msm8998" clone-depth="1" />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="hals" revision="arrow-12.0-caf-msm8998" clone-depth="1" />
+  <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_sdm660_audio" remote="Atom-X" revision="sdm660-12" clone-depth="1" />
+  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_sdm660_display" remote="Atom-X" revision="sdm660-12" clone-depth="1" />
+  <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_sdm660_media" remote="Atom-X" revision="sdm660-12" clone-depth="1" />
   
 </manifest>
