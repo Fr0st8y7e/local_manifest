@@ -7,11 +7,20 @@
   <remote  name="evox_devices"
            fetch="https://github.com/Evolution-X-Devices" />
   
-  <remote  name="hals"
+  <remote  name="arrow-hals"
            fetch="https://github.com/ArrowOS" />
   
-  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="icebreaker" revision="android-12" />
+  <remote  name="arrow-devices"
+           fetch="https://github.com/ArrowOS-Devices" />
+  
+  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="icebreaker" revision="Corvus-S" />
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="evox_devices" revision="eas" />
-  <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="icebreaker" revision="android-12" />
+  <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="icebreaker" revision="Corvus-S" />
+ 
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="arrow-hals" revision="arrow-12.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="arrow-hals" revision="arrow-12.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="arrow-hals" revision="arrow-12.1-caf-msm8998" />
+  
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="arrow-devices" revision="arrow-12.1" />
   
 </manifest>
