@@ -14,7 +14,7 @@
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys" />
   
   <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="icebreaker" revision="sapphire" />
-  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_scarlet" remote="Atom-X-Devs" revision="default-QTI" />
+  <project path="kernel/msm-4.19" name="android_kernel_xiaomi_scarlet" remote="Atom-X-Devs" revision="default-QTI" />
   <project path="vendor/xiaomi/tulip" name="android_vendor_xiaomi_tulip" remote="icebreaker" revision="sapphire" />
   
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="Fork-AOSPA" revision="sapphire" />
