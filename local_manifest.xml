@@ -13,6 +13,8 @@
   <remote  name="lineageos"
            fetch="https://github.com/LineageOS" />
   
+  <remove-project name="packages_resources_devicesettings" />
+  
   <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="icebreaker" revision="pe" />
   <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="icebreaker" revision="pe" />
   <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_scarlet" remote="icebreaker" revision="default-QTI" />
