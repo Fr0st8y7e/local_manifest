@@ -7,8 +7,8 @@
   <remote  name="clarencelol"
            fetch="https://github.com/clarencelol" />
   
-  <remote  name="proton"
-           fetch="https://github.com/kdrag0n" />
+  <remote  name="neutron"
+           fetch="https://gitlab.com/dakkshesh07" />
   
   <remote  name="lineageos"
            fetch="https://github.com/LineageOS" />
@@ -23,7 +23,7 @@
   <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_sdm660_display" remote="clarencelol" revision="sdm660-4.19-12"/>
   <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_sdm660_media" remote="clarencelol" revision="sdm660-4.19-12"/>
   
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton" revision="master"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-neutron" name="neutron-clang" remote="neutron" revision="Neutron-15"/>
   
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineageos" revision="lineage-19.1"/>
   
