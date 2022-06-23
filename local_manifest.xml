@@ -4,27 +4,11 @@
   <remote  name="icebreaker"
            fetch="https://github.com/IceBreaker2451" />
   
-  <remote  name="Atom-X-Devs"
-           fetch="https://github.com/Atom-X-Devs" />
+  <remote  name="Evox"
+           fetch="https://github.com/Evolution-X-Devices" />
   
-  <remote  name="Fork-AOSPA"
-           fetch="https://github.com/Fork-AOSPA" />
-  
-  <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
-  <remove-project name="platform/vendor/qcom-opensource/display-commonsys" />
-  
-  <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="icebreaker" revision="sapphire" />
-  <project path="kernel/msm-4.19" name="android_kernel_xiaomi_scarlet" remote="Atom-X-Devs" revision="default-QTI" />
-  <project path="vendor/xiaomi/tulip" name="android_vendor_xiaomi_tulip" remote="icebreaker" revision="sapphire" />
-  
-  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="Fork-AOSPA" revision="sapphire" />
-  
-  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="Fork-AOSPA" revision="sdm660-4.19"/>    	
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="Fork-AOSPA" revision="sdm660-4.19"/>
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="Fork-AOSPA" revision="sdm660-4.19"/>
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="Fork-AOSPA" revision="sdm660-4.19"/>
-  
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="Fork-AOSPA" revision="sapphire"/>
-  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_commonsys_display" remote="Fork-AOSPA" revision="sapphire"/>
+  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="icebreaker" revision="sc-v2" />
+  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="Evox" revision="eas" />
+  <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="icebreaker" revision="sc-v2" />
   
 </manifest>
