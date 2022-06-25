@@ -13,6 +13,9 @@
   <remote  name="arrow-devices"
            fetch="https://github.com/ArrowOS-Devices" />
   
+  <remote  name="potato-gms"
+           fetch="https://gitlab.com/potatodevices" />
+  
   <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="icebreaker" revision="frico_mr1-release" />
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="Evox" revision="eas" />
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="icebreaker" revision="frico_mr1-release" />
@@ -26,5 +29,7 @@
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="arrow-hals" revision="arrow-12.1-caf-msm8998" />
   
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="arrow-devices" revision="arrow-12.1" />
+  
+  <project path="vendor/google/gms" name="vendor_google_gms" remote="potato-gms" revision="frico_mr1-release" />
   
 </manifest>
