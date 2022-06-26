@@ -7,8 +7,8 @@
   <remote  name="kernel"
            fetch="https://github.com/IceBreaker2451" />
   
-  <remote  name="clarencelol"
-           fetch="https://github.com/clarencelol" />
+  <remote  name="edwinmoq"
+           fetch="https://github.com/EdwinMoq" />
   
   <remote  name="lineageos"
            fetch="https://github.com/LineageOS" />
@@ -16,14 +16,12 @@
   <remove-project name="packages_resources_devicesettings" />
   
   <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="icebreaker" revision="pe" />
-  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="icebreaker" revision="12-4.19" />
   <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_scarlet" remote="kernel" revision="default-QTI" />
-  <project path="vendor/xiaomi/tulip" name="android_vendor_xiaomi_tulip" remote="icebreaker" revision="twelve" />
-  <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="icebreaker" revision="12-4.19" />
+  <project path="vendor/xiaomi/tulip" name="android_vendor_xiaomi_tulip" remote="kernel" revision="12" />
   
-  <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_sdm660_audio" remote="clarencelol" revision="sdm660-4.19-12"/>    	
-  <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_sdm660_display" remote="clarencelol" revision="sdm660-4.19-12"/>
-  <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_sdm660_media" remote="clarencelol" revision="sdm660-4.19-12"/>
+  <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" remote="edwinmoq" revision="sdm660-4.19"/>    	
+  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" remote="edwinmoq" revision="sdm660-4.19"/>
+  <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" remote="edwinmoq" revision="sdm660-4.19"/>
   
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineageos" revision="lineage-19.1"/>
   
