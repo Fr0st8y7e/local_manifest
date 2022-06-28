@@ -4,9 +4,6 @@
   <remote  name="aospa-tulip"
            fetch="https://github.com/aospa-tulip" />
   
-  <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
-  <remove-project name="platform/vendor/qcom-opensource/display-commonsys" />
-  
   <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="aospa-tulip" revision="sapphire" />
   <project path="kernel/msm-4.19" name="android_kernel_xiaomi_sdm660" remote="aospa-tulip" revision="eas" />
   <project path="vendor/xiaomi/tulip" name="android_vendor_xiaomi_tulip" remote="aospa-tulip" revision="sapphire" />
