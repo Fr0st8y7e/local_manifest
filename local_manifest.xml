@@ -12,7 +12,7 @@
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.1"/>
   
   <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="ArrowOS/android_hardware_qcom_audio" remote="github" revision="arrow-12.1-caf-msm8998"/>    	
-  <project path="hardware/qcom/display" name="ArrowOS/android_hardware_qcom_display" remote="github" revision="arrow-12.1-caf-msm8998"/>
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="aospa-tulip" revision="arrow-12.1-caf-msm8998"/>
   <project path="hardware/qcom/media" name="ArrowOS/android_hardware_qcom_media" remote="github" revision="arrow-12.1-caf-msm8998"/>
   
 </manifest>
