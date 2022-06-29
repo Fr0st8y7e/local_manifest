@@ -7,6 +7,7 @@
   
   <project path="hardware/google/pixel" name="aospa-tulip/android_hardware_google_pixel" groups="generic_fs,pixel" remote="github" revision="sapphire" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.1"/>
+  <project path="device/qcom/sepolicy-legacy" name="AtomXCLO/android_device_qcom_sepolicy-legacy" remote="github" revision="sc-v2"/>
   
   <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="ArrowOS/android_hardware_qcom_audio" remote="github" revision="arrow-12.1-caf-msm8998"/>    	
   <project path="hardware/qcom/display" name="aospa-tulip/android_hardware_qcom_display" remote="github" revision="sapphire"/>
