@@ -2,7 +2,7 @@
 <manifest>
   
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys" />
-  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
+  <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
   
   <project path="device/xiaomi/tulip" name="aospa-tulip/android_device_xiaomi_tulip" remote="github" revision="sapphire" />
   <project path="kernel/xiaomi/sdm660" name="aospa-tulip/android_kernel_xiaomi_sdm660" remote="github" revision="eas" />
