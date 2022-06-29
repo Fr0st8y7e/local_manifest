@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys" />
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
+  
   <project path="device/xiaomi/tulip" name="aospa-tulip/android_device_xiaomi_tulip" remote="github" revision="sapphire" />
   <project path="kernel/xiaomi/sdm660" name="aospa-tulip/android_kernel_xiaomi_sdm660" remote="github" revision="eas" />
   <project path="vendor/xiaomi/tulip" name="aospa-tulip/android_vendor_xiaomi_tulip" remote="github" revision="sapphire" />
@@ -12,5 +15,8 @@
   <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="ArrowOS/android_hardware_qcom_audio" remote="github" revision="arrow-12.1-caf-msm8998"/>    	
   <project path="hardware/qcom/display" name="Cygnus-devices/hardware_qcom_display" remote="github" revision="caf-12-msm8998"/>
   <project path="hardware/qcom/media" name="ArrowOS/android_hardware_qcom_media" remote="github" revision="arrow-12.1-caf-msm8998"/>
+  
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="Fork-AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" remote="github" revision="sapphire" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="Fork-AOSPA/android_vendor_qcom_opensource_commonsys_display" remote="github" revision="sapphire"/>
   
 </manifest>
