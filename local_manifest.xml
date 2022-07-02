@@ -17,9 +17,9 @@
   
   <project path="hardware/google/pixel" name="PixelExperience/hardware_google_pixel" remote="github" revision="twelve" />
   
-  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="platform_hardware_qcom_audio" remote="AOSP-bouquet" revision="SaltyIceCream"/>    	
-  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="AOSP-bouquet" revision="SaltyIceCream"/>
-  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="AOSP-bouquet" revision="SaltyIceCream"/>
-  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="AOSP-bouquet" revision="SaltyIceCream"/>
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="sapphire-660-4.19"/>    	
+  <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="sapphire-660-4.19"/>
+  <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="sapphire-660-4.19"/>
+  <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="github" revision="sapphire-660-4.19"/>
   
 </manifest>
