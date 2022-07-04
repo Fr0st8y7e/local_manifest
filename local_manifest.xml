@@ -4,18 +4,13 @@
   <remote  name="hals"
            fetch="https://github.com/EdwinMoq" />
   
-  <remove-project name="android_hardware_qcom_audio" />
-  <remove-project name="android_hardware_qcom_display" />
-  <remove-project name="android_hardware_qcom_media" />
-  <remove-project name="android_hardware_qcom_thermal" />
-  
   <project path="device/xiaomi/tulip" name="4-19-tulip/android_device_xiaomi_tulip" remote="github" revision="12-WIP" />
   <project path="kernel/xiaomi/sdm660" name="IceBreaker2451/android_kernel_xiaomi_scarlet" remote="github" revision="default-QTI" />
   <project path="vendor/xiaomi/tulip" name="4-19-tulip/android_vendor_xiaomi_tulip" remote="github" revision="12" />
   
-  <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" remote="hals" revision="sdm660-4.19" />
-  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" remote="hals" revision="sdm660-4.19" />
-  <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" remote="hals" revision="sdm660-4.19" />
+  <project path="hardware/qcom-caf/sdm660-S/audio" name="android_hardware_qcom_audio" remote="hals" revision="sdm660-4.19" />
+  <project path="hardware/qcom-caf/sdm660-S/display" name="android_hardware_qcom_display" remote="hals" revision="sdm660-4.19" />
+  <project path="hardware/qcom-caf/sdm660-S/media" name="android_hardware_qcom_media" remote="hals" revision="sdm660-4.19" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="hals" revision="lineage-19.1" />
   
   <project path="vendor/libbfqio" name="GKart/vendor_libbfqio" remote="github" revision="main" />
