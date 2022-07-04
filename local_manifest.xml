@@ -17,5 +17,6 @@
   
   <project path="vendor/libbfqio" name="GKart/vendor_libbfqio" remote="github" revision="main" />
   <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" remote="github" revision="arrow-12.1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-neutron" name="dakkshesh07/neutron-clang" remote="gitlab" revision="Neutron-15" />
   
 </manifest>
