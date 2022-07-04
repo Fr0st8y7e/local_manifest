@@ -4,7 +4,7 @@
   <remote  name="hals"
            fetch="https://github.com/EdwinMoq" />
   
-  <project path="device/xiaomi/tulip" name="4-19-tulip/android_device_xiaomi_tulip" remote="github" revision="12-WIP" />
+  <project path="device/xiaomi/tulip" name="4-19-tulip/android_device_xiaomi_tulip" remote="github" revision="12-WIP-cirrus" />
   <project path="kernel/xiaomi/sdm660" name="IceBreaker2451/android_kernel_xiaomi_scarlet" remote="github" revision="default-QTI" />
   <project path="vendor/xiaomi/tulip" name="4-19-tulip/android_vendor_xiaomi_tulip" remote="github" revision="12" />
   
