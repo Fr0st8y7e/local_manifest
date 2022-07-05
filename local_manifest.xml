@@ -2,7 +2,7 @@
 <manifest>
   
   <project path="device/xiaomi/tulip" name="4-19-tulip/android_device_xiaomi_tulip" remote="github" revision="sapphire" />
-  <project path="kernel/msm-4.19" name="4-19-tulip/android_kernel_xiaomi_scarlet" remote="github" revision="sapphire" />
+  <project path="kernel/msm-4.19" name="IceBreaker2451/android_kernel_xiaomi_scarlet" remote="github" revision="sapphire" />
   <project path="vendor/xiaomi/tulip" name="4-19-tulip/android_vendor_xiaomi_tulip" remote="github" revision="sapphire" />
   
   <project path="hardware/google/pixel" name="4-19-tulip/hardware_google_pixel" groups="generic_fs,pixel" remote="github" revision="sapphire" />
