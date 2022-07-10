@@ -3,7 +3,7 @@
   
   <remove-project name="android_hardware_qcom_display" />
   
-  <project path="device/xiaomi/tulip" name="ArrowOS-Devices/android_device_xiaomi_tulip" remote="github" revision="QTI-haptics" />
+  <project path="device/xiaomi/tulip" name="ArrowOS-Devices/android_device_xiaomi_tulip" remote="github" revision="staging/arrow-12.1" />
   <project path="kernel/xiaomi/sdm660" name="ArrowOS-Devices/android_kernel_xiaomi_tulip" remote="github" revision="QTI-haptics" />
   <project path="vendor/xiaomi/tulip" name="ArrowOS-Devices/android_vendor_xiaomi_tulip" remote="github" revision="arrow-12.1" />
   
