@@ -7,6 +7,7 @@
   
   <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" remote="github" revision="arrow-12.1" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.1" />
+  <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="lineage-19.1-legacy-um" />
   
   <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="IceBreaker2451/android_hardware_qcom_audio" revision="arrow-12.1-caf-msm8998" remote="github" clone-depth="1" />
   <project path="hardware/qcom/display" name="IceBreaker2451/android_hardware_qcom_display" revision="arrow-12.1-caf-msm8998" remote="github" clone-depth="1" />
