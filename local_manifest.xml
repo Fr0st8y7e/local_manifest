@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
+  <remote name="lab"
+                fetch="https://github.com/xenxynon-lab-404"
+                revision="refs/heads/shinka" />
+  
   <project path="device/xiaomi/tulip" name="IceBreaker2451/device_xiaomi_tulip" remote="github" revision="shinka" />
   <project path="kernel/xiaomi/sdm660" name="IceBreaker2451/android_kernel_xiaomi_tulip" remote="github" revision="shinka" />
   <project path="vendor/xiaomi/tulip" name="IceBreaker2451/vendor_xiaomi_tulip" remote="github" revision="shinka" />
@@ -9,8 +13,13 @@
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.1" />
   <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="lineage-19.1-legacy-um" />
   
-  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="IceBreaker2451/android_hardware_qcom_audio" revision="arrow-12.1-caf-msm8998" remote="github" clone-depth="1" />
-  <project path="hardware/qcom/display" name="IceBreaker2451/android_hardware_qcom_display" revision="arrow-12.1-caf-msm8998" remote="github" clone-depth="1" />
-  <project path="hardware/qcom/media" name="IceBreaker2451/android_hardware_qcom_media" revision="arrow-12.1-caf-msm8998" remote="github" clone-depth="1" />
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_vendor_qcom_opensource_audio-hal_primary-hal" remote="lab" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="lab" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="lab" />
+  
+  <remove-project name="android_vendor_qcom-opensource_display-commonsys" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_commonsys_display" remote="lab" >
+  <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-commonsys.mk" src="config/display-product-commonsys.mk"/>
+  </project>
   
 </manifest>
