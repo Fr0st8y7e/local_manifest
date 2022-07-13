@@ -11,7 +11,7 @@
   
   <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" remote="github" revision="arrow-12.1" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.1" />
-  <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="lineage-19.1-legacy-um" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="lab"/>
   
   <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_vendor_qcom_opensource_audio-hal_primary-hal" remote="lab" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="lab" />
