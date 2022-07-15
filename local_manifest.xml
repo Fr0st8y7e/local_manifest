@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remove-project name="android_hardware_qcom_display" />
-  
   <project path="device/xiaomi/tulip" name="IceBreaker2451/android_device_xiaomi_twolip" remote="github" revision="rebase" />
   <project path="kernel/xiaomi/sdm660" name="crdroidandroid/android_kernel_xiaomi_sdm660" remote="github" revision="12.1" />
   <project path="vendor/xiaomi/tulip" name="IceBreaker2451/android_vendor_xiaomi_twolip" remote="github" revision="12.1" />
