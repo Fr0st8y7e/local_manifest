@@ -5,9 +5,9 @@
                 fetch="https://github.com/xenxynon-lab-404"
                 revision="refs/heads/shinka" />
   
-  <project path="device/xiaomi/tulip" name="IceBreaker2451/device_xiaomi_tulip" remote="github" revision="shinka" />
-  <project path="kernel/xiaomi/sdm660" name="IceBreaker2451/android_kernel_xiaomi_tulip" remote="github" revision="shinka" />
-  <project path="vendor/xiaomi/tulip" name="IceBreaker2451/vendor_xiaomi_tulip" remote="github" revision="shinka" />
+  <project path="device/xiaomi/tulip" name="IceBreaker2451/android_device_xiaomi_twolip" remote="github" revision="shinka" />
+  <project path="kernel/xiaomi/sdm660" name="IceBreaker2451/android_kernel_xiaomi_twolip" remote="github" revision="shinka" />
+  <project path="vendor/xiaomi/tulip" name="IceBreaker2451/android_vendor_xiaomi_twolip" remote="github" revision="shinka" />
   
   <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" remote="github" revision="arrow-12.1" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.1" />
