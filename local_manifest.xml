@@ -1,29 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote name="wHo-EM-i"
-          fetch="https://github.com/wHo-EM-i" />
-  
-  <project path="device/xiaomi/tulip" name="IceBreaker2451/device_xiaomi_tulip" remote="github" revision="sapphire" />
-  <project path="kernel/msm-4.4" name="IceBreaker2451/android_kernel_xiaomi_sdm660" remote="github" revision="sapphire" />
-  <project path="vendor/xiaomi/tulip" name="IceBreaker2451/vendor_xiaomi_tulip" remote="github" revision="sapphire" />
+  <project path="device/xiaomi/tulip" name="4-19-tulip/android_device_xiaomi_tulip" remote="github" revision="sapphire" />
+  <project path="kernel/msm-4.19" name="IceBreaker2451/android_kernel_xiaomi_scarlet" remote="github" revision="sapphire" />
+  <project path="vendor/xiaomi/tulip" name="4-19-tulip/android_vendor_xiaomi_tulip" remote="github" revision="sapphire" />
   
   <project path="hardware/google/pixel" name="4-19-tulip/hardware_google_pixel" groups="generic_fs,pixel" remote="github" revision="sapphire" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.1"/>
   <project path="device/qcom/sepolicy-legacy" name="AtomXCLO/android_device_qcom_sepolicy-legacy" remote="github" revision="sc-v2"/>
-  <project path="device/qcom/sepolicy-legacy-um" name="xenxynon/device_qcom_sepolicy-legacy-um" remote="github" revision="A12"/>
   
-  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" revision="11-4.4" remote="wHo-EM-i" clone-depth="1" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" revision="11-4.4" remote="wHo-EM-i" clone-depth="1" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" revision="11-4.4" remote="wHo-EM-i" clone-depth="1" />
-  <remove-project name="platform/vendor/qcom-opensource/display-commonsys" />
-  <project name="vendor-qcom-opensource-display-commonsys" path="vendor/qcom/opensource/commonsys/display" revision="12" remote="wHo-EM-i" clone-depth="1" >
-    <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-commonsys.mk" src="config/display-product-commonsys.mk"/>
-  </project>
-  <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor-qcom-opensource-display-commonsys-intf" revision="sapphire" remote="wHo-EM-i" clone-depth="1" >
-    <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk" />
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk" />
-  </project>
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="sapphire-660-4.19"/>    	
+  <project path="hardware/qcom/display" name="aospa-sdm660/android_hardware_qcom_display" remote="github" revision="sapphire-660-4.19"/>
+  <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="github" revision="sapphire-660-4.19"/>
   
 </manifest>
