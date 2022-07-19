@@ -9,7 +9,7 @@
                 fetch="https://github.com/LineageOS" />
   
   <project path="device/xiaomi/tulip" name="IceBreaker2451/android_device_xiaomi_tulip" remote="github" revision="shinka" />
-  <project path="kernel/xiaomi/sdm660" name="IceBreaker2451/android_kernel_xiaomi_tulip" remote="github" revision="shinka" />
+  <project path="kernel/xiaomi/sdm660" name="liquidprjkt/liquid_kernel_xiaomi_tulip" remote="github" revision="liquid" />
   <project path="vendor/xiaomi/tulip" name="IceBreaker2451/android_vendor_xiaomi_tulip" remote="github" revision="shinka" />
   
   <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" remote="github" revision="arrow-12.1" />
