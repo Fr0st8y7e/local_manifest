@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
+  <project path="device/xiaomi/tulip" name="ArrowOS-Devices/android_device_xiaomi_tulip" remote="github" revision="arrow-12.1" />
+  <project path="kernel/xiaomi/sdm660" name="ArrowOS-Devices/android_kernel_xiaomi_scarlet" remote="github" revision="arrow-12.1" />
+  <project path="vendor/xiaomi/tulip" name="ArrowOS-Devices/android_vendor_xiaomi_tulip" remote="github" revision="arrow-12.1" />
+  
   <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" remote="github" revision="arrow-12.1" />
   <project path="vendor/libbfqio" name="GKart/vendor_libbfqio" remote="github" revision="main" />
   
